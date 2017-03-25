@@ -12,6 +12,7 @@ public class App {
         if (args.length < 4) {
             return;
         }
+        // Get info from args.
         String ai1 = args[0];
         String ai2 = args[1];
         String start = args[2];
@@ -20,16 +21,66 @@ public class App {
             words.add(args[i]);
         }
 
+        boolean first = true;
+        String next = null;
+        while (true) {
+            next = ai(first ? ai1 : ai2, start, words);
+            if (!words.contains(next)) {
+                break;
+            }
+            if (!judge(start, next)) {
+                break;
+            }
+            // Remove next word in words list and reset start word.
+            words.remove(next);
+            start = next;
+            // Output OK info.
+            System.out.println((first ? "FIRST" : "SECOND") + " (OK): " + next);
+            // Change AI program.
+            first = !first;
+        }
+        System.out.println((first ? "FIRST" : "SECOND") + " (NG): " + next);
+        System.out.println("WIN - " + (first ? "SECOND" : "FIRST"));
     }
 
+    /**
+     * Execute AI.
+     *
+     * @param ai    AI program
+     * @param start start word
+     * @param words word group
+     * @return next word
+     */
     private static String ai(String ai, String start, List<String> words) {
+        // Create an AI command.
         String cmd = ai + " " + start;
         for (String word : words) {
             cmd += " " + word;
         }
+        // Execute AI command.
         return exec(cmd);
     }
 
+    /**
+     * Judge method.
+     * Return true if the last character in the start word is sample to the first character in the next word.
+     *
+     * @param start
+     * @param next
+     * @return
+     */
+    private static boolean judge(String start, String next) {
+        char lastInStart = start.charAt(start.length() - 1);
+        char firstInNext = next.charAt(0);
+        return lastInStart == firstInNext;
+    }
+
+    /**
+     * Execute a command
+     *
+     * @param cmd
+     * @return result
+     */
     private static String exec(String cmd) {
         String output = "";
         try {

@@ -16,5 +16,26 @@ public class App {
                 return;
             }
         }
+        System.out.println(getRandomWord(lastCharacter));
     }
+
+    private final static String characters = "abcdefghijklmbopqrstuvwxyz";
+
+    public static String getRandomChar() {
+        int i = -1;
+        while (i == -1 || i > 25) {
+            i = (int) (Math.random() * 100);
+        }
+        return String.valueOf(characters.charAt(i));
+    }
+
+    public static String getRandomWord(char first) {
+        String temp = String.valueOf(first);
+        int length = (int) (Math.random() * 10);
+        for (int j = 1; j < length; j++) {
+            temp += getRandomChar();
+        }
+        return temp;
+    }
+
 }
