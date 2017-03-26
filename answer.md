@@ -1,7 +1,5 @@
 Here are some developed products / deliverables I created. They some representative projects of me. Others which are open source can be found in my Github page: https://github.com/lm2343635.
 
-## Java Web Application
-
 ### 1. My Homepage, a Blog System
 This is a blog system by myself, it is also my homepage. You can see the introduction of me in this blog system. I have wrote some blogs in this blog system.
 
@@ -14,6 +12,7 @@ This is a blog system by myself, it is also my homepage. You can see the introdu
 	- Search a blog by keyword of title.
 	- Review and comment.
 - URL: http://fczm.pw 
+- Source Code: https://github.com/lm2343635/Blog
 
 ![Blog](https://raw.githubusercontent.com/lm2343635/Blog/master/screenshoot/blog.png)
 
@@ -29,6 +28,7 @@ Easy finance is my graduation project, it includes a Web application and an iOS 
 	- Record any you want.
 	- Use your money wisely.
 - URL: http://easy.fczm.pw
+- - Source Code: https://github.com/lm2343635/EasyFinance, https://github.com/lm2343635/AccountManagement
 
 ![EasyFinance](https://raw.githubusercontent.com/lm2343635/EasyFinance/master/screenshoot/easyfinance.png)
 
@@ -36,4 +36,59 @@ You can see the demo here: http://easy.fczm.pw. Demo account is tom@126.com with
 
 Source code of iOS application is here: https://github.com/lm2343635/AccountManagement
  
-## iOS Application
+### 3. Rate Assistant
+Rate Assistant is an exchange rate app, which provides real time rate, rate history and customer notification. It has such features.
+
+- Search current and historical currency exchange rate.
+- Display favorite currencies on the home page after signing in.
+- Monitoring specific exchange rate by subscription.
+- Push notification to your iOS devices when the exchange rate reaches the threshold.
+
+Rate Assistant supports Android and iOS now! Android version only supports rate search now, other functions will be added in the future.
+
+Rate Assistant is developed by MuShare Group(https://github.com/MuShare), and I am responsible for it's iOS client and the deploy of Web Service.
+
+#### Web Service
+- Programming Languages: Java
+- Frameworks: Spring, Spring MVC, Hibernate
+
+#### iOS Client
+- Programming Languages: Objective-C
+- Supported Languagues: English, Simplified Chinese and Japanese.
+- App Store: https://itunes.apple.com/app/id1139573801
+
+![Rate-iOS](https://raw.githubusercontent.com/MuShare/Rate-iOS/master/Images/rate_iOS.png)
+
+#### Andriod Client
+- Programming Languages: Java
+- Supported Languagues: English.
+- Google Play:  https://play.google.com/store/apps/details?id=org.mushare.rate
+
+![Rate-Android](https://raw.githubusercontent.com/MuShare/Rate-Android/master/Images/rate_android.png)
+
+### 4. Httper
+Httper is a REST API test tool running on your iOS devices. It helps developers to test their REST API anywhere and anytime without desktops.
+
+Some features of Httper: 
+
+- Developers can submit a HTTP request with several headers, parameters and row request body by 9 different HTTP methods including GET, POST, HEAD, PUT, DELETE, CONNECT, OPTIONS, TRACE and PATCH. HTTP response can be shown as three styles including **pretty**, **row** and **preview**. Response status code and headers are also supported in Httper.
+- Supports to synchronize request history between multiple devices with your account signing in. Your request history can be synchronized from cloud in a new device if you sign in your account.
+- Some Internet tools are included in Httper:
+	- Ping a domain or IP address.
+	- Whois search.
+	- Get device public IP info, WiFi info and cellular info.
+
+Httper consists of a Web service for request synchronization and an iOS client. You can visit http://httper.mushare.cn to know more about Httper.
+
+![Httper](https://github.com/lm2343635/Httper/raw/master/Screenshoot/httper.jpg)
+
+#### Web Service
+- Programming Languages: Java
+- Frameworks: Spring, Spring MVC, Hibernate
+- URL: http://httper.mushare.cn
+
+#### iOS Client
+- Programming Languages: Swift, Objective-C
+- Supported Languagues: English.
+- App Store: https://itunes.apple.com/app/httper/id1166884043
+
