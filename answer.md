@@ -28,7 +28,7 @@ Easy finance is my graduation project, it includes a Web application and an iOS 
 	- Record any you want.
 	- Use your money wisely.
 - URL: http://easy.fczm.pw
-- - Source Code: https://github.com/lm2343635/EasyFinance, https://github.com/lm2343635/AccountManagement
+- Source Code: https://github.com/lm2343635/EasyFinance, https://github.com/lm2343635/AccountManagement
 
 ![EasyFinance](https://raw.githubusercontent.com/lm2343635/EasyFinance/master/screenshoot/easyfinance.png)
 
@@ -92,3 +92,21 @@ Httper consists of a Web service for request synchronization and an iOS client. 
 - Supported Languagues: English.
 - App Store: https://itunes.apple.com/app/httper/id1166884043
 
+### 5. Tsukuba Net
+This is an iOS App for auto web auth in the hirasuna and oikoshi student dormitory at University of Tsukuba. We can use this app to replace web auth using browser in our PC. This app support 3D touch to call auth directly before saved your username and password. 
+
+- Platform: iOS
+- Programming Languages: Objective-C
+- Supported Languagues: English, Simplified Chinese and Japanese.
+- App Store: https://itunes.apple.com/app/id1139422363
+- Source Code: https://github.com/lm2343635/WebAuth
+
+### 6. Lucky Dogs
+
+Lucky Dogs is drawing lots iOS app to choose one or more persons from serval participators randomly. In Lucky Dogs, click add or minus button to decide the number of participators and lucky dogs. Just start, put your and other participators' fingers on the screen. Points for lucky dogs will become red!
+
+- Platform: iOS
+- Programming Languages: Swift
+- Supported Languagues: English and Simplified Chinese.
+- App Store: https://itunes.apple.com/app/id1201592794
+- Source Code: https://github.com/lm2343635/Lots
