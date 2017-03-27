@@ -14,7 +14,7 @@ This is a blog system by myself, it is also my homepage. You can see the introdu
 - URL: http://fczm.pw 
 - Source Code: https://github.com/lm2343635/Blog
 
-![Blog](https://raw.githubusercontent.com/lm2343635/Blog/master/screenshoot/blog.png)
+![Blog](https://raw.githubusercontent.com/lm2343635/Blog/master/screenshot/blog.png)
 
 ### 2. Easy Finance, a Financial Application for Individual User
 Easy finance is my graduation project, it includes a Web application and an iOS Application. 
@@ -30,7 +30,7 @@ Easy finance is my graduation project, it includes a Web application and an iOS 
 - URL: http://easy.fczm.pw
 - Source Code: https://github.com/lm2343635/EasyFinance, https://github.com/lm2343635/AccountManagement
 
-![EasyFinance](https://raw.githubusercontent.com/lm2343635/EasyFinance/master/screenshoot/easyfinance.png)
+![EasyFinance](https://raw.githubusercontent.com/lm2343635/EasyFinance/master/screenshot/easyfinance.png)
 
 You can see the demo here: http://easy.fczm.pw. Demo account is tom@126.com with password 123.
 
@@ -80,7 +80,7 @@ Some features of Httper:
 
 Httper consists of a Web service for request synchronization and an iOS client. You can visit http://httper.mushare.cn to know more about Httper.
 
-![Httper](https://github.com/lm2343635/Httper/raw/master/Screenshoot/httper.jpg)
+![Httper](https://github.com/lm2343635/Httper/raw/master/screenshot/httper.jpg)
 
 #### Web Service
 - Programming Languages: Java
@@ -113,4 +113,4 @@ Lucky Dogs is drawing lots iOS app to choose one or more persons from serval par
 - App Store: https://itunes.apple.com/app/id1201592794
 - Source Code: https://github.com/lm2343635/Lots
 
-![Lucky Dogs](https://raw.githubusercontent.com/lm2343635/Lots/master/screenshoot/lots.png)
+![Lucky Dogs](https://raw.githubusercontent.com/lm2343635/Lots/master/screenshot/lots.png)
