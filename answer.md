@@ -112,3 +112,5 @@ Lucky Dogs is drawing lots iOS app to choose one or more persons from serval par
 - Supported Languagues: English and Simplified Chinese.
 - App Store: https://itunes.apple.com/app/id1201592794
 - Source Code: https://github.com/lm2343635/Lots
+
+![Lucky Dogs](https://raw.githubusercontent.com/lm2343635/Lots/master/screenshoot/lots.png)
