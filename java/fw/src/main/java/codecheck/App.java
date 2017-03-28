@@ -9,8 +9,9 @@ public class App {
 
     public static void main(String[] args) {
         // Length of agrs must be large than 4.
+        // -2 represents parameter error.
         if (args.length < 4) {
-            return;
+            System.exit(-2);
         }
         // Get info from args.
         String ai1 = args[0];
@@ -41,6 +42,8 @@ public class App {
         }
         System.out.println((first ? "FIRST" : "SECOND") + " (NG): " + next);
         System.out.println("WIN - " + (first ? "SECOND" : "FIRST"));
+        // Normal end, output win/lose result, and return 0 as end code.
+        System.exit(0);
     }
 
     /**

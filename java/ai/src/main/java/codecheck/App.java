@@ -2,9 +2,10 @@ package codecheck;
 
 public class App {
     public static void main(String[] args) {
-        // Length of agrs must be large than 2.
+        // Length of agrs must be large than 2, exit with -2.
+        // -2 represents parameter error.
         if (args.length < 2) {
-            return;
+            System.exit(-2);
         }
         // Get last word.
         String last = args[0];
@@ -13,10 +14,11 @@ public class App {
             String word = args[i];
             if (word.charAt(0) == lastCharacter) {
                 System.out.println(word);
-                return;
+                System.exit(0);
             }
         }
         System.out.println(getRandomWord(lastCharacter));
+        System.exit(-1);
     }
 
     private final static String characters = "abcdefghijklmbopqrstuvwxyz";
