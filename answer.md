@@ -114,3 +114,28 @@ Lucky Dogs is drawing lots iOS app to choose one or more persons from serval par
 - Source Code: https://github.com/lm2343635/Lots
 
 ![Lucky Dogs](https://raw.githubusercontent.com/lm2343635/Lots/master/screenshot/lots.png)
+
+### 7. UIImageView+Extension
+
+UIImageView+Extension is a simple UIImageView category with some extension functions. It has such features: 
+
+- Support Interface Builder.
+- Set border radius for image view.
+- Set shadow for image view.
+- Rotate image view.
+- Set image view to circle.
+
+Compared to the traditional iOS view frameworks, UIImageView+Extension used **IBInspectable** so that it supports to modify some attributes about UIImageView in Interface Builder directly. 
+
+![Interface Builder Guide](https://raw.githubusercontent.com/lm2343635/UIImageView-Extension/master/screenshot/InterfaceBuilderGuide.png)
+
+Here are some demos of UIImageView+Extension.
+
+![Demo App](https://raw.githubusercontent.com/lm2343635/UIImageView-Extension/master/screenshot/DemoApp.png)
+
+This framework is compatible with CocoaPods library management tool.
+
+- Platform: iOS
+- Programming Languages: Objective-C
+- CocoaPods: https://cocoapods.org/pods/UIImageView+Extension
+- Source Code: https://github.com/lm2343635/UIImageView-Extension

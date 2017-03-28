@@ -21,14 +21,16 @@ public class App {
         for (int i = 3, l = args.length; i < l; i++) {
             words.add(args[i]);
         }
-
+        // Flag to mark the first AI and the second AI.
         boolean first = true;
         String next = null;
         while (true) {
             next = ai(first ? ai1 : ai2, start, words);
+            // S/he returns a word not included in the set of words at that time.
             if (!words.contains(next)) {
                 break;
             }
+            // S/he returns the word not beginning with the last character of the other player's most recent answer.
             if (!judge(start, next)) {
                 break;
             }
